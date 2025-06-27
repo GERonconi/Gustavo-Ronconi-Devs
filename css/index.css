@@ -1,0 +1,56 @@
+main {
+    display: grid;
+    grid-template-areas: "div-inicios div-evolucion";
+    grid-template-columns: 3fr 9fr;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.img_evolucion {
+    width: 100%;
+    height: auto;
+    /* max-width: 400px; */
+    width:40%;
+    /* border-radius: 40%; */
+    margin-top: 20px;
+}
+
+main .div-inicios {
+    grid-area: div-inicios;
+    max-width: 900px;
+    min-width: 300px;
+    height: auto;
+    font-size: 30px;
+    color: #333;
+    text-align: center;
+    text-wrap: normal;
+    border: #333 2px solid;
+    margin: 0 0 0 50px;
+    padding: 0 20px 0;
+    line-height: 1.5;
+}
+
+.div-evolucion{
+    /* position:absolute;
+    top: 1200px;
+    left: 1350px; */
+    max-width: 1800px;
+    min-width: 300px;
+    height: auto;
+    font-size: 30px;
+    color: #333;
+    text-align: center;
+    text-wrap: normal;
+    border: #333 2px solid;
+    padding: 50px 100px 0 100px;
+    line-height: 1.5;
+    /* list-style: 1.5px; */
+}
+
+.img_propia {
+    width: 100%;
+    height: auto;
+    max-width: 400px;
+    border-radius: 50%;
+    margin-top: 20px;
+}

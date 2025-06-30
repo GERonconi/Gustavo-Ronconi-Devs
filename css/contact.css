@@ -203,3 +203,18 @@ footer a {
 footer a:hover {
     color: #fff;
 }
+
+    /* Personaliza los botones Bootstrap */
+.btn-primary {
+    background-color: var(--color-acento) !important;
+    border-color: var(--color-principal) !important;
+    color: var(--color-principal) !important;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: var(--verde-detalle) !important;
+    color: white !important;
+    border-color: var(--verde-detalle) !important;
+}

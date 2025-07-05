@@ -174,8 +174,7 @@ iframe {
 }
 
 .accordion-body {
-    /* background-color: white; */
-    background-color: rgb(206, 8, 8);
+    background-color: white;
     color: var(--color-texto);
     width: 80%;
     margin: 30px auto;

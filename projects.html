@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyWebSite&Portafolio</title>
-    <!-- <link rel="stylesheet" href="./css/style.css"> -->
+    <title>Gustavo Ronconi - MyWebSite&Portafolio</title>
     <link rel="stylesheet" href="./css/projects.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.css">
@@ -22,7 +21,11 @@
             Superviviente y Programador
         </h2>
 
-        <nav>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú">
+            <img src="./img/hueso-cocido.png" alt="Menú" style="width:32px; height:32px;">
+        </button>
+
+        <nav id="main-nav">
             <ul>
                 <li><a href="index.html">Sobre mí</a></li>
                 <li><a href="projects.html">Proyectos</a></li>
@@ -59,23 +62,32 @@
                                 📚 Descripción General
                             </button>
                         </h2>
-                        <div id="collapseFDCOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                            <p>
-                                Este proyecto fue desarrollado como parte del curso de HTML y CSS de FreeCodeCamp, con el propósito de aplicar los fundamentos del desarrollo web creando una página estática que simula el menú de un café.
-                                <br>
-                                La consigna principal fue construir una estructura semántica clara y aplicar estilos básicos usando únicamente HTML y CSS, sin el uso de frameworks ni JavaScript.
 
-                            </p>
+                        <div id="collapseFDCOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+
+                            <div class="accordion-body">
+                                <p>
+                                    Este proyecto fue desarrollado como parte del curso de HTML y CSS de FreeCodeCamp, con el propósito de aplicar los fundamentos del desarrollo web creando una página estática que simula el menú de un café.
+                                    <br>
+                                    La consigna principal fue construir una estructura semántica clara y aplicar estilos básicos usando únicamente HTML y CSS, sin el uso de frameworks ni JavaScript.
+                                </p>
+                            </div>
                         </div>
+
                     </div>
 
                     <div class="accordion-item">
+
                         <h2 class="accordion-header">
+
                             <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFDCTwo" aria-expanded="false" aria-controls="collapseTwo">
                                 🎯 Objetivos del Proyecto
                             </button>
+
                         </h2>
+
                         <div id="collapseFDCTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+
                             <div class="accordion-body">
                                 
                                 <p>
@@ -86,11 +98,12 @@
                                     Aplicar estilos simples utilizando selectores de clase y propiedades básicas de CSS.
                                     <br>
                                     Desarrollar una estructura limpia y fácil de mantener.
-
                                 </p>
 
                             </div>
+
                         </div>
+
                     </div>
 
                     <div class="accordion-item">
@@ -175,7 +188,7 @@
                         <div id="collapseFDCSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <p>
-                                    🔍 Ver código en GitHub (Reemplazar por el enlace real si lo subiste a GitHub)
+                                    🔍 <a href="https://github.com/GERonconi/CSS--FreeCodeCamp--Cafe-Menu" target="_blank">Ver código en GitHub.</a>
                                 </p>
                             </div>
                         </div>
@@ -204,15 +217,15 @@
 
         </div>
 
+        <h2>
+            Landing Page con Bootstrap - Emprendimiento propio.
+        </h2>
+
+        <h2>
+            🖥️ Proyecto Web: GERTech Reparaciones de PC 
+        </h2>
+        
         <div class="pagina-propia">
-
-            <h2>
-                Landing Page con Bootstrap - Emprendimiento propio.
-            </h2>
-
-            <h2>
-                🖥️ Proyecto Web: GERTech Reparaciones de PC 
-            </h2>
 
             <div>
 
@@ -234,18 +247,23 @@
                             💡 Descripción General
                         </button>
                     </h2>
-                    <div id="collapsePPOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <p>
-                            Este proyecto es una landing page responsive desarrollada con HTML5, CSS3 y Bootstrap 5, pensada para un servicio técnico especializado en reparación y mantenimiento de computadoras. 
-                            <br>
-                            Su objetivo principal es atraer clientes potenciales mediante una presentación clara, moderna y visualmente atractiva de los servicios ofrecidos.
 
-                        </p>
+                    <div id="collapsePPOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+
+                        <div class="accordion-body">
+                            <p>
+                                Este proyecto es una landing page responsive desarrollada con HTML5, CSS3 y Bootstrap 5, pensada para un servicio técnico especializado en reparación y mantenimiento de computadoras. 
+                                <br>
+                                Su objetivo principal es atraer clientes potenciales mediante una presentación clara, moderna y visualmente atractiva de los servicios ofrecidos.
+
+                            </p>
+                        </div>
                     </div>
                 </div>
 
                 <div class="accordion-item">
                     <h2 class="accordion-header">
+
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePPTwo" aria-expanded="false" aria-controls="collapseTwo">
                             🎯 Objetivos del Proyecto
                         </button>
@@ -336,9 +354,25 @@
                     </div>
                 </div>
 
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePPFive" aria-expanded="false" aria-controls="collapseGertechSix">
+                        🔗 Enlace al Proyecto
+                    </button>
+                    </h2>
+                    <div id="collapsePPFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>
+                        🔍 <a href="https://github.com/GERonconi/PAGINA-PROPIA" target="_blank">Ver código en GitHub.</a>
+                        </p>
+                    </div>
+                    </div>
+                </div>
+
             </div>
         </div>
 
+        
         
         <h2>
             Home Page - GERTechSoluciones Informáticas.
@@ -353,9 +387,9 @@
             <div class="description">
 
                 <div class="design-switcher mb-3 text-center">
-                    <button class="btn btn-evo-marron me-2" onclick="cambiarIframe('https://geronconi.github.io/MARKETING-EN-HTML/')">Diseño 1</button>
-                    <button class="btn btn-evo-verde me-2" onclick="cambiarIframe('https://geronconi.github.io/gertech2/')">Diseño 2</button>
-                    <button class="btn btn-evo-marron" onclick="cambiarIframe('https://geronconi.github.io/gertech3/')">Diseño 3</button>
+                    <button class="btn-evo-marron me-2" onclick="cambiarIframe('https://geronconi.github.io/MARKETING-EN-HTML/')">Diseño 1</button>
+                    <button class="btn-evo-marron me-2" onclick="cambiarIframe('https://geronconi.github.io/gertech2/')">Diseño 2</button>
+                    <button class="btn-evo-marron me-2" onclick="cambiarIframe('https://geronconi.github.io/gertech3/')">Diseño 3</button>
                 </div>
                 <div>
 
@@ -482,7 +516,7 @@
                         <div id="collapseGertechSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
                             <p>
-                            🔍 <a href="https://github.com/tuusuario/gertech-web" target="_blank">Ver código en GitHub</a> (reemplazar con el link real)
+                            🔍 <a href="https://github.com/GERonconi/MARKETING-EN-HTML" target="_blank">Ver código en GitHub</a>
                             </p>
                         </div>
                         </div>
@@ -639,7 +673,7 @@
                         <div id="collapseCalcSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                             <div class="accordion-body">
                                 <p>
-                                    🔍 <a href="https://github.com/tuusuario/tu-repo" target="_blank">Ver código en GitHub</a> (reemplazá el enlace por el real)
+                                    🔍 <a href="https://github.com/GERonconi/Calculadora" target="_blank">Ver código en GitHub</a>
                                 </p>
                             </div>
                         </div>

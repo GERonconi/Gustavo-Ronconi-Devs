@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyWebSite&Portafolio</title>
-    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <title>Gustavo Ronconi - MyWebSite&Portafolio</title>
     <link rel="stylesheet" href="css/indexevolutivo.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 </head>
@@ -21,7 +20,11 @@
             Superviviente y Programador
         </h2>
 
-        <nav>
+        <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú">
+            <img src="./img/hueso-cocido.png" alt="Menú" style="width:32px; height:32px;">
+        </button>
+
+        <nav id="main-nav">
             <ul>
                 <li><a href="index.html">Sobre mí</a></li>
                 <li><a href="projects.html">Proyectos</a></li>
@@ -66,33 +69,34 @@
                 Mis primeros pasos en Python fueron de la mano de un Canal de Youtube:
             </p>
 
-            <!-- ...existing code... -->
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/mENHDQ8SLsI" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
-            <!-- ...existing code... -->
+           
+            <iframe class="video_youtube" width="560" height="315" src="https://www.youtube.com/embed/mENHDQ8SLsI" title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+            
 
             <p>
                 Para dicho proyecto utilicé las siguientes librerias de Python:
-
-                <ol>
-
-                    <li>
-                        libreria "re " ( la cual me permitió trabajar con expresiones regulares).
-                    </li>
-
-                    <li>
-                        "xlswriter" y "openpyxl" que me permitió agregar la información a archivos Excel.
-                    </li>
-
-                    <li>
-                        "OCR" y "Pytesseract" me permitieron convertir las imágenes a texto.
-                    </li>
-                
-                </ol>
-
-                Para ese tiempo todavía no conocia ni sabía utilizar librerias como Tkinter para realizar interfaces gráficas que me hubieran beneficiado mucho para comprender como se iban transformando los datos, ya que mi código solo me permitía ver el resultado final y no realizar pequeñas modificaciones que mejoraran el desempeño del programa efectuado.
-                <br>
-
             </p>
+            
+            <ol>
+
+                <li>
+                    <strong>libreria "re"</strong> ( la cual me permitió trabajar con expresiones regulares).
+                </li>
+
+                <li>
+                    <strong>"xlswriter"</strong> y <strong></strong>"openpyxl"</strong> que me permitió agregar la información a archivos Excel.
+                </li>
+
+                <li>
+                    <strong>"OCR"</strong> y <strong>"Pytesseract"</strong> me permitieron convertir las imágenes a texto.
+                </li>
+            
+            </ol>
+            
+            <p>
+                Para ese tiempo todavía no conocia ni sabía utilizar librerias como Tkinter para realizar interfaces gráficas que me hubieran beneficiado mucho para comprender como se iban transformando los datos, ya que mi código solo me permitía ver el resultado final y no realizar pequeñas modificaciones que mejoraran el desempeño del programa efectuado.
+            </p>
+
 
         </div>
 
@@ -107,5 +111,6 @@
         </p>
     </footer>
 
+    <script src="./js/script.js"></script>
 </body>
 </html>
